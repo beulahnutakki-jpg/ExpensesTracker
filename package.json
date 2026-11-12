@@ -1,40 +1,15 @@
 {
-  "name": "yauzl",
-  "version": "3.4.0",
-  "description": "yet another unzip library for node",
-  "engines": {
-    "node": ">=12"
-  },
-  "main": "index.js",
+  "name": "expensestracker",
+  "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
-    "test": "node test/test.js"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thejoshwolfe/yauzl.git"
-  },
-  "keywords": [
-    "unzip",
-    "zip",
-    "stream",
-    "archive",
-    "file"
-  ],
-  "author": "Josh Wolfe <thejoshwolfe@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/thejoshwolfe/yauzl/issues"
-  },
-  "homepage": "https://github.com/thejoshwolfe/yauzl",
   "dependencies": {
-    "pend": "~1.2.0"
-  },
-  "devDependencies": {
-    "bl": "^6.0.11"
-  },
-  "files": [
-    "crc32.js",
-    "fd-slicer.js",
-    "index.js"
-  ]
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb-memory-server": "^11.3.0",
+    "mongoose": "^8.5.0"
+  }
 }
